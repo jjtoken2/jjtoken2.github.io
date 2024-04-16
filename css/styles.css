@@ -11027,6 +11027,7 @@ html {
   background-position: center;
   height: 100vh;
   max-height: 1250px;
+  width: 100%;
   }
   .hero-text {
     margin-top: -100px;
