@@ -11020,14 +11020,11 @@ html {
     max-width: 100%;
   }
   .fire-bg {
-    background-image: url("./../assets/FIREBG-mobile.png");
+    background-image: url("./../assets/BG-mobile-full.png");
       background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  max-height: 1250px;
-  width: 100%;
   }
   .hero-text {
     margin-top: -100px;
