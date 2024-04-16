@@ -11020,7 +11020,11 @@ html {
     max-width: 100%;
   }
   .fire-bg {
-    background-image: url("./../assets/FIREBG-mobile.png");
+    background-image: url("./../assets/FIREBG-mobile.png" !important);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
   }
 }
 .innernotepad {
