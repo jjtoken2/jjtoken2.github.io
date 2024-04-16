@@ -11025,6 +11025,7 @@ html {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  max-height: 1250px;
   }
 }
 .innernotepad {
