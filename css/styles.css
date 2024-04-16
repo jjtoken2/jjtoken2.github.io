@@ -10863,7 +10863,7 @@ html {
   min-height: 15rem;
 }
 .fire-bg {
-  background-image: url("./../assets/FIREBG.gif");
+  background-image: url("./../assets/JJ-BG.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -10880,6 +10880,7 @@ html {
   position: absolute;
   left: 20px;
   top: 20px;
+  width: 150px;
 }
 .hero-menu {
   position: absolute;
@@ -10889,7 +10890,8 @@ html {
   display: block;
 }
 .windows-btn {
-  background-image: url("./../assets/BTNBG.png");
+  color: #fff;
+  font-size: 24px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10900,6 +10902,9 @@ html {
   justify-content: center;
   vertical-align: middle;
   flex-direction: column;
+  font-family: "Shadows Into Light", cursive;
+      font-weight: 400;
+      font-style: normal;
 }
 .guarantee100 {
   position: absolute;
@@ -10970,6 +10975,51 @@ html {
   left: 720px;
   bottom: 80px;
 }
+.tokenomics-area {
+  font-family:  "Shadows Into Light", cursive;
+  color: #fff;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .3);
+  padding: 40px;
+  border-radius: 6px;
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+.token-inner {
+  display: flex;
+}
+.token-box {
+  font-size: 24px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bomb-icon {
+  width: 50px;
+  margin-bottom: 5px;
+}
+.token-title {
+  font-size: 48px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-sc {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-sc {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 .innernotepad {
   position: absolute;
   z-index: 200;
@@ -11001,14 +11051,29 @@ html {
     transform: translate3d(-100%, 0, 0);
   }
 }
+.hero-text {
+  width: 600px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, .3);
+  padding: 40px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+}
+.hero-title {
+  font-size: 28px;
+}
+.hero-subtitle {
+  font-size: 20px;
+}
 .ticker-wrap {
   position: fixed;
   bottom: 0;
   width: 100%;
   overflow: hidden;
   height: 4rem;
-  background-color: rgba(0, 0, 0, 0.9);
-  background-color: #0700b1;
+  background-color: #000;
   padding-left: 100%;
   box-sizing: content-box;
   display: flex;
@@ -11037,6 +11102,7 @@ html {
   padding: 0 2rem;
   font-size: 16px;
   color: white;
+  width: 140px;
 }
 
 
@@ -11081,9 +11147,17 @@ html {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column-sc {
-    flex: 100%;
-    max-width: 100%;
+  .hero-text {
+    width: 300px;
+  }
+  .hero-title {
+    font-size: 20px
+  }
+  .hero-subtitle {
+    font-size: 14px;
+  }
+  .sc-logo {
+    width: 100px;
   }
 }
 
@@ -11141,7 +11215,7 @@ html {
   z-index: 1;
   right: 30px;
   top: 300px;
-  width: 120px;
+  width: 50px;
 }
 
 .audioSC {
@@ -11397,7 +11471,7 @@ html {
     display: none;
   }
   .sc-logo {
-    width: 160px;
+    width: 100px;
   }
   .stickySC {
     display: none;
@@ -11525,6 +11599,20 @@ html {
     height: 24px;
     z-index: 9999;
     display: block;
+    font-size: 18px;
+    font-family: "Shadows Into Light", cursive;
+      font-weight: 400;
+      font-style: normal;
+   
+  }
+  .tokenomics-area {
+    width: 320px;
+  }
+  .token-title {
+    font-size: 22px;
+  }
+  .token-box {
+    font-size: 12px;
   }
   .floating {
     margin-left: 0 !important;
