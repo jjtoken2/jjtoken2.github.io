@@ -11019,6 +11019,9 @@ html {
     flex: 100%;
     max-width: 100%;
   }
+  .fire-bg {
+    background-image: url("./../assets/FIREBG-mobile.png");
+  }
 }
 .innernotepad {
   position: absolute;
