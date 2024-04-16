@@ -11027,6 +11027,9 @@ html {
   background-position: center;
   max-height: 1250px;
   }
+  .hero-text {
+    margin-top: -80px;
+  }
 }
 .innernotepad {
   position: absolute;
@@ -11627,7 +11630,7 @@ html {
   }
   .audioSC {
     left: 25px;
-    bottom: 85px;
+    bottom: 160px;
   }
   .innernotepad {
     font-size: 14px;
