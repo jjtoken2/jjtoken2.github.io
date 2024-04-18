@@ -10863,7 +10863,7 @@ html {
   min-height: 15rem;
 }
 .fire-bg {
-  background-image: url("./../assets/JJ-BG-O.png");
+  background-image: url("./../assets/JJ-BG-O.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -11020,7 +11020,7 @@ html {
     max-width: 100%;
   }
   .fire-bg {
-    background-image: url("./../assets/BG-mobile-full-O.png");
+    background-image: url("./../assets/BG-mobile-full-O.jpg");
       background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
