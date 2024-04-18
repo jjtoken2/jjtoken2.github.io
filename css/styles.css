@@ -10918,6 +10918,10 @@ html {
   top: 20%;
   width: 80px !important;
 }
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
 .notepad {
   width: 600px;
   text-align: center;
