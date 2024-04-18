@@ -11617,6 +11617,7 @@ html {
   }
   .tokenomics-area {
     width: 320px;
+    margin-top: 0px;
   }
   .token-title {
     font-size: 22px;
