@@ -11024,7 +11024,7 @@ html {
       background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   }
   .hero-text {
     margin-top: -100px;
