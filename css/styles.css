@@ -11033,6 +11033,9 @@ a {
   .hero-text {
     margin-top: -100px;
   }
+  .contract {
+    font-size: 10px;
+  }
 }
 .innernotepad {
   position: absolute;
